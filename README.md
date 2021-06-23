@@ -13,6 +13,8 @@
 ### Hybrid Sort
 #### Uses a H factor to determine when merge sort is inefficient and when insertion sort should be used to help finish the sorting. It sorts using merge till H is reached then, insertion sort to finish the sort. This uses the functions above to help create the sorting algorithm. Any flaws above also affects the hybrid sort.
 
+![](/images/logo.png)
+
 ## Bin_Packing_Algorithm_Analysis
 
 ### Best Fit
