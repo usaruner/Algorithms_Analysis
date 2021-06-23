@@ -1,4 +1,6 @@
 # Algorithm_Analysis
+#### This project is meant to test the algorithms that we have for sorting, bin packing and networks. The sorting is tested using the Big-O notation for time. The graphs are in a LogLog form to show the growth with repect to ln. Hence all values are Log(n)*Slope. Bin packing uses a waste comparsion to determine the efficency of the algorithm. Waste is calculated by the maximum waste - actual waste. The plots are also placed into loglog form. Lastly, Network analysis uses algorithms that identify the diameter, cluster and degree of an network. The analysis is done on the change in these factors as the network is growing.
+
 ## Sort_Algorithm_Analysis
 ### Insertion Sort
 
