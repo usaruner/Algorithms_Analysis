@@ -13,6 +13,7 @@
 ### Hybrid Sort
 #### Uses a H factor to determine when merge sort is inefficient and when insertion sort should be used to help finish the sorting. It sorts using merge till H is reached then, insertion sort to finish the sort. This uses the functions above to help create the sorting algorithm. Any flaws above also affects the hybrid sort.
 
+### Results
 ![RESULTS](Sorting_algorithms/Picture/Results.JPG)
 
 ## Bin_Packing_Algorithm_Analysis
@@ -26,6 +27,9 @@
 ### Next Fit
 #### Next fit checks the next largest bin number and then if the storage fits then it will put it in. If the bin does not fit then a new bin will be created to fit the storage. No previous bin will be looked at. This was implemented with an index as the current bin holder. This uses a for loop to iterate through the elements and check the index for fitting.
 
+### Results
+![RESULTS](Bin_Packing_algorithms/Picture/Results.JPG)
+
 ## Network_Algorithm_Analysis
 
 ### Network Representation
@@ -36,3 +40,6 @@
 
 ### Network Analysis
 #### Implemented function to find the diameter, cluster coefficent, and degree.
+
+### Results
+![RESULTS](Networks_algorithms/Picture/Results.JPG)
