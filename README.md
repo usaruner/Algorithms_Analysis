@@ -27,9 +27,10 @@
 ## Network_Algorithm_Analysis
 
 ### Network Representation
-
+#### Graph uses an edge map and vector map. Each node is identified via the vector map. The nodes store the identification value. Node comparsion is done using the identifying number. The number of Nodes need to be predefined and no implementation of adding or deleting nodes was added. The graph is created by taking 2 vectors u and v, of equal size, where u is connected to v.
 
 ### Network Creation
-
+#### Generated using a Erdos-Renyi random graph algorithm. By picking a random number between 0 and 1 it will pick the probability of which a node will be added. The probability is calculated using the equation Log(1-r)/log(1-p).
 
 ### Network Analysis
+#### Implemented function to find the diameter, cluster coefficent, and degree.
